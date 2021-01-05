@@ -1,0 +1,31 @@
+.container {
+    padding: 50px 0px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 0px 15px 15px;
+    }
+}
+
+.footer {
+    position: fixed; 
+    width: 100%;
+    bottom: 0;
+    padding: 10px 10px 0px 10px; 
+    text-align: center;
+}
