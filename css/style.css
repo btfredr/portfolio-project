@@ -7,7 +7,7 @@
     flex-direction: row;
 }
 
-.card {
+.mycard {
     margin-left: 10px;
     color: black;
 }
@@ -26,7 +26,7 @@
         flex-direction: column;
     }
 
-    .card {
+    .mycard {
         margin: 0px 15px 15px;
     }
 }
